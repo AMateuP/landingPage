@@ -1,4 +1,5 @@
 <?php
+    include 'db.php';
     include 'header.php';
 ?>
     <main class="contenedor sombra">
@@ -47,42 +48,6 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>            
             </section>
         </div>
-        <section>
-            <form class="formulario" action="">
-                <fieldset>
-                    <legend>Contáctame enviando tus datos</legend>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <div>
-                                <label for="">Nombre:</label>
-                                <input class="input-text" type="text" name="Nombre" placeholder="Tu Nombre">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Teléfono:</label>
-                                <input class="input-text" type="tel" name="Teléfono" placeholder="Tu Teléfono">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Correo:</label>
-                                <input class="input-text" type="email" name="Correo" placeholder="Tu Correo">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Mensaje</label>
-                                <textarea name="Mensaje" ></textarea>
-                            </div>
-                        </div>
-                        <div>
-                            <input class="input-text" class="boton" type="submit" value="Enviar">
-                        </div>
-                    </div>
-                </fieldset>
-            </form>
-        </section>
     </main>
 <?php
     include 'footer.php';
