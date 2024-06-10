@@ -72,6 +72,11 @@ h1,h2,h3{
     text-align: center;
 }
 
+.container{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
 .sombra{
     -webkit-box-shadow: 0px 0px 5px 7px rgba(179,179,179,1);
     -moz-box-shadow: 0px 0px 5px 7px rgba(179,179,179,1);
@@ -219,4 +224,62 @@ h1,h2,h3{
     border: none;
     padding: 1rem;
     border-radius: .5rem;
+}
+
+footer{
+    text-align: center;
+}
+
+.mensaje{
+    width: 50%;
+    text-align: center;
+    border-radius: 1rem;
+    border: .3rem solid gray;
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.success{
+    background-color: green;
+    color: white;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}
+
+/*Estilos para la tabla*/
+
+.cabecera{
+    padding-bottom: 1rem;
+}
+
+.campoCabecera{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem 0;
+    background-color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black; 
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 2fr 3fr;
+}
+
+.campo{
+    font-size: 1.5rem;
+    margin: .5rem 2rem;
+}
+
+.impar{
+    background-color: rgb(190, 190, 190);
+}
+
+.par{
+    background-color: gray;
 }
