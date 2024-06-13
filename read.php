@@ -42,7 +42,9 @@
                     <div class="campo"><?=$row['nombre'];?></div>
                     <div class="campo"><?=$row['telefono'];?></div>
                     <div class="campo"><?=$row['correo'];?></div>
-                    <div class="campo"><?=$row['mensaje'];?></div>
+                    <div class="campo"><?=$row['mensaje'];?>
+                    <?=substr(0, 51)?>...
+                </div>
                     <div class="btm-borrar">
                         <a href="borrar.php?id=<?=$row['id']?>">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash-filled" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
