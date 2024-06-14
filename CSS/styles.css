@@ -19,7 +19,6 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
 }
 
 /*Utilidades*/
@@ -272,7 +271,7 @@ footer{
 
 .fila{
     display: grid;
-    grid-template-columns: .5fr 2fr 1fr 2fr 3fr 1fr;
+    grid-template-columns: 1fr 1.5fr 2fr 3fr 3fr 1.2fr;
 }
 
 .campo{
@@ -286,4 +285,8 @@ footer{
 
 .fila.par{
     background-color: gray;
+}
+
+.links a{
+    text-decoration: none;
 }

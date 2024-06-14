@@ -19,7 +19,7 @@
             <a href="index.php">Inicio</a>
             <a href="Tutoriales.php">Tutoriales</a>
             <a href="Novedades.php">Novedades</a>
-            <a href="read.php">Leer mensajes</a>
             <a href="Contacto.php">Contacto</a>
+            <a href="read.php">Leer mensajes</a>
         </nav>
     </div>
