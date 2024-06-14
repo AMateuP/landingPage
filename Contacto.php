@@ -16,7 +16,7 @@
 <main>
     <section>
         <form class="formulario" action="create_contact.php" method="POST">
-            <fieldset>
+            <fieldset class="border-none">
                 <legend>Contáctame enviando tus datos</legend>
                 <div class="contenedor-campos">
                     <div class="campo">
@@ -40,11 +40,11 @@
                     <div class="campo">
                         <div>
                             <label for="">Mensaje</label>
-                            <textarea name="Mensaje" ></textarea>
+                            <textarea class="input-text" name="Mensaje" id="" cols="30" rows="10" ></textarea>
                         </div>
                     </div>
                     <div>
-                        <input class="input-text" class="boton" type="submit" value="Enviar">
+                        <input  class="boton" type="submit" value="Enviar">
                     </div>
                 </div>
             </fieldset>
